@@ -1,0 +1,176 @@
+
+.header {
+	height: 40px;
+	background: #0099ff;
+	padding: 20px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: bold;
+  color: #ffffff;
+}
+
+#welcome {
+	display: inline-block;
+	float: left;
+}
+
+#checkmate {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+}
+
+.parentDiv {
+  width: 100%;
+}
+
+.containerGraph {
+  width: 100%;
+}
+
+.containerSurvey {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  width: 50%;
+  float: left;
+	overflow: hidden;
+}
+
+
+.containerStats {
+  width: 50%;
+	display: inline-block;
+  float: right;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	overflow: hidden;
+
+/* 	margin-left: 10px; */
+}
+
+.surveyParent {
+	width: 100%;
+
+}
+.surveyQuestion {
+/* 	float:left;  */
+	display:inline;
+	width: 50%;
+}
+
+.label {
+	margin-bottom: 20px;
+}
+
+.questionHistory {
+	display:inline;
+	width: 100%;
+	float: left;
+}
+
+#historyOneDiv {
+	display: none;
+}
+
+#historyTwoDiv {
+	display: none;
+}
+
+#historyThreeDiv {
+	display: none;
+}
+
+#historyFourDiv {
+	display: none;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 2px 4px;
+    text-align: center;
+    display: inline;
+}
+
+.historyDiv {
+	width: 300px;
+	overflow-y: scroll; 
+	height:60px;
+	font-size: 8x;
+}
+
+.historyDiv * {
+	padding: 5px;
+}
+
+.tableContainer {
+	display: inline-block;
+	float:right;
+}
+
+.newGoals {
+	width: 50%;
+	display: block;
+	float: right;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#leftMessages {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	display: inline-block;
+	float: left;
+	width: 50%;
+
+}
+
+#messagesDiv {
+	margin: 10px 10px;
+	border: 2px solid #A9A9A9;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#rightMessages {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	float: right;
+	display: inline-block;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
+#usernameForm {
+
+}
+
+#messageForm {
+	float: right;
+	display: inline-block;
+}
+
+#friendStats {
+	display: none;
+	float: right;
+}
+
+.messageWrapper {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+/*!
+Pure v1.0.0
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb;float:right;}
+.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,
+.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:.5em 1em}
+.pure-table td:first-child,.pure-table th:first-child{border-left-width:0}
+.pure-table thead{background-color:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}
+.pure-table td{background-color:transparent}.pure-table-odd td,.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}
+.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child>td{border-bottom-width:0}.pure-table-horizontal td,
+.pure-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child>td{border-bottom-width:0}
+
+
