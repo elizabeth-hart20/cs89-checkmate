@@ -667,7 +667,6 @@ $minuteGoal = mysqli_fetch_assoc($goals)['minuteGoal'];
 	}
 
 	if (strlen($_POST['statSubmit']) > 0) {
-		echo '<script>console.log("statSubmit")</script>';
 		$friendUsername = $_POST['friendUsername'];
 
 		$userQuery = "SELECT email from members WHERE username = '$friendUsername'";
@@ -745,7 +744,7 @@ $minuteGoal = mysqli_fetch_assoc($goals)['minuteGoal'];
 							Message: <textarea name="message" rows="3" cols="20"></textarea><br>
 							<button type="submit" name="messageSubmit">Submit</button>
 					</form>
-					</div>
+				</div>
 	
 
 				<div id="friendStats" style="display: none;"> 
