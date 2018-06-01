@@ -687,6 +687,7 @@ $minuteGoal = mysqli_fetch_assoc($goals)['minuteGoal'];
 			
 			$friendGoals = getCurrentGoals($mysqli, $friendUsername);
 			$friendPickupGoal = mysqli_fetch_assoc($friendGoals)['pickupGoal'];
+			$friendGoals = getCurrentGoals($mysqli, $friendUsername);
 			$friendMinuteGoal = mysqli_fetch_assoc($friendGoals)['minuteGoal'];
 			
 			$friendData=mysqli_query($mysqli,"SELECT * FROM phone_data WHERE email = '$friendEmail' ORDER BY reg_date DESC LIMIT 5");
